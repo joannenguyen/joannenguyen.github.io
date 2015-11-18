@@ -1,0 +1,188 @@
+/* line 7, ../scss/style.scss */
+.clearfix {
+  position: relative;
+  zoom: 1;
+}
+/* line 10, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 14, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 20, ../scss/style.scss */
+body {
+  min-width: 360px;
+  font-family: "Cardo", serif;
+}
+
+/* line 25, ../scss/style.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 29, ../scss/style.scss */
+.mainimage {
+  position: relative;
+  background-image: url("../img/mainpicture.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center right;
+  width: 102%;
+}
+
+/* line 40, ../scss/style.scss */
+h1, h2, h3 {
+  margin: 0px;
+  font-weight: normal;
+}
+
+/* line 45, ../scss/style.scss */
+.imagetext {
+  margin: 65% auto;
+  position: absolute;
+  left: 15%;
+  text-align: center;
+}
+
+/* line 52, ../scss/style.scss */
+h1 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 3px;
+  display: none;
+}
+
+/* line 59, ../scss/style.scss */
+a {
+  text-decoration: none;
+  padding: 0px;
+  color: white;
+  font-family: "Cardo", serif;
+}
+/* line 64, ../scss/style.scss */
+a:hover {
+  color: #ea5d6e;
+}
+
+/* line 69, ../scss/style.scss */
+nav {
+  background-color: rgba(3, 3, 3, 0.5);
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+/* line 76, ../scss/style.scss */
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+/* line 82, ../scss/style.scss */
+nav li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+/* line 86, ../scss/style.scss */
+nav a {
+  display: block;
+  font-family: "Julius Sans One", sans-serif;
+}
+/* line 90, ../scss/style.scss */
+nav img {
+  display: inline-block;
+  width: 10%;
+}
+
+/* line 97, ../scss/style.scss */
+h2 {
+  font-family: "Julius Sans One", sans-serif;
+  margin: 15px 0px;
+}
+
+/* line 102, ../scss/style.scss */
+.SCCFF {
+  background-image: url("../img/sccffmockup2.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  position: relative;
+  margin-bottom: 15px;
+}
+/* line 110, ../scss/style.scss */
+.SCCFF h3 {
+  position: absolute;
+  bottom: 25%;
+  text-transform: uppercase;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(3, 3, 3, 0.5);
+  padding: 30px 27px;
+}
+
+/* line 120, ../scss/style.scss */
+.OneColumbia {
+  background-image: url("../img/onecolumbiamockup.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  position: relative;
+  margin-bottom: 15px;
+}
+/* line 128, ../scss/style.scss */
+.OneColumbia h3 {
+  position: absolute;
+  bottom: 18%;
+  text-transform: uppercase;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 136, ../scss/style.scss */
+.Zverse {
+  background-image: url("../img/zversemockup2.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 275px;
+  position: relative;
+}
+/* line 143, ../scss/style.scss */
+.Zverse h3 {
+  position: absolute;
+  bottom: 20%;
+  text-transform: uppercase;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 600px) {
+  /* line 154, ../scss/style.scss */
+  nav li {
+    padding: 0px 30px;
+  }
+}
+@media (min-width: 800px) {
+  /* line 162, ../scss/style.scss */
+  nav li {
+    padding: 0px 50px;
+  }
+
+  /* line 167, ../scss/style.scss */
+  .SCCFF, .OneColumbia, .Zverse {
+    width: 49%;
+    display: inline-block;
+  }
+
+  /* line 173, ../scss/style.scss */
+  .SCCFF {
+    margin-right: 10px;
+  }
+}

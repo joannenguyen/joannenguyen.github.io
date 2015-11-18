@@ -1,19 +1,61 @@
+<!doctype html>
 <html>
-	<head>
-		<title>Joannenguyen.github.io</title>
-	</head>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700|Julius+Sans+One' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Joanne's Portfolio</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style2.css"> -->
+    </head>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Works</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+				<img src="img/logo2.png">
+			<ul>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Skills</a></li>
+			</ul>
+		</nav>
+		<div class="mainimage">
+			<div class="imagetext">
+				<h1 id="fittext1">Joanne Nguyen</h1>
+				<h1 id="fittext1">UI/UX Designer</h1>
+			</div> <!--end of .imagetext-->
+		</div> <!--end of .mainimage-->
+	</header>
 	<body>
-		<h1>Welcome to my portfolio site.</h1>
+		<div class="wrapper">
+			<h2 id="fittext2">Selected Works</h2>
+	 
+			<div class="SCCFF">
+				<section>
+				<h3 id="fittext3"><a href="#">Center for Fathers &amp; Families</a></h3>
+				</section>
+			</div>
+			<div class="OneColumbia">
+				<h3 id="fittext3"><a href="#">One Columbia</a></h3>
+			</div>
+			<div class="Zverse">
+				<h3 id="fittext3"><a href="#">zVerse</a></h3>
+			</div>
+		</div> <!-- end of .wrapper-->
 
-		<ul>
-			<li>
-				<a href="grok/index.html">Grok Project</a>
-			</li>
-			<li>
-				<a href="zverse/index.html">Zverse Project</a>
-			</li>
-		</ul>
-
-
+		<script src="js/jquery.fittext.js"></script>
+		<script type="text/javascript">
+		$("#fittext1").fitText();
+		$("#fittext2").fitText(1.2);
+		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+	</script>
 	</body>
 </html>
