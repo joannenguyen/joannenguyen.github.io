@@ -183,6 +183,7 @@ h4{
 	color: $color;
 	text-align: center;
 	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 p, h5{
@@ -198,6 +199,9 @@ h5{
 }
 
 .projectscope{
+	h4{
+		margin-top: 0px;
+	}
 	ul{
 		margin: 0px;
 	}
@@ -212,11 +216,21 @@ h5{
 	font-size: 0.9em;
 }
 
-.discovery, .wireframes, .thumbnails, .integrations, .coding, .viewdemo{
-	h4{
-		margin-top: 40px;
+.discovery{
+	ul{
+		margin: 0px;
+	}
+	li{
+		font: normal 400 12px Martel Sans, sans-serif;
+		color: $color;
 	}
 }
+
+// .discovery, .wireframes, .thumbnails, .integrations, .coding, .viewdemo{
+// 	h4{
+// 		margin-top: 40px;
+// 	}
+// }
 
 .tabletview{
 	width: 100%;
@@ -225,6 +239,16 @@ h5{
 	}
 }
 
+.mobileview{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	img{
+		width: 100%;
+	}
+}
+
+
 
 .livedemo{
 		color: $color;
@@ -232,8 +256,8 @@ h5{
 }
 
 
-.wireframes, .thumbnails{
-	.WF, .TN{
+.wireframes, .thumbnails, .mockups{
+	.WF, .TN, .MU{
 		width: 100%;
 		margin-bottom: 25px;
 	}
@@ -268,11 +292,13 @@ h5{
 		}
 	}
 
-	.wireframes, .thumbnails{
-		.WF, .TN{
+	.wireframes, .thumbnails, .mockups{
+		.WF, .TN, .MU{
 			width: 60%;
 		}
 	}
+
+	
 }
 
 @media (min-width: 800px) {
@@ -283,11 +309,20 @@ h5{
 			display: inline-block;
 			vertical-align: top;
 		}
-		.firstcolumn{
+	}
+
+	.firstcolumn{
 			margin-right: 25px;
 		}
+
+	.mockups{
+		.MU{
+			width: 30%;
+			display: inline-block;
+			vertical-align: top;
+		}
 	}
-	.tabletview{
+	.tabletview, .mobileview{
 		width: 80%;
 	}
 
