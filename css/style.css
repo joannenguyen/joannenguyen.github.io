@@ -250,103 +250,113 @@ h5 {
 }
 
 /* line 236, ../scss/style.scss */
-.wireframes .WF {
+.wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
   width: 100%;
   margin-bottom: 25px;
 }
-/* line 240, ../scss/style.scss */
-.wireframes img {
+/* line 241, ../scss/style.scss */
+.wireframes img, .thumbnails img {
   width: 100%;
 }
 
-/* line 246, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 .about {
   margin-top: 40px;
 }
 
+/* line 251, ../scss/style.scss */
+.education, .contact {
+  margin-top: 40px;
+}
+
+/* line 255, ../scss/style.scss */
+.contacttag {
+  color: #444444;
+}
+
 @media (min-width: 600px) {
-  /* line 257, ../scss/style.scss */
+  /* line 263, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
-  /* line 260, ../scss/style.scss */
+  /* line 266, ../scss/style.scss */
   nav .imagetag {
     width: 8%;
   }
 
-  /* line 266, ../scss/style.scss */
-  .wireframes .WF {
+  /* line 272, ../scss/style.scss */
+  .wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
     width: 60%;
   }
 }
 @media (min-width: 800px) {
-  /* line 275, ../scss/style.scss */
-  .wireframes .WF {
+  /* line 281, ../scss/style.scss */
+  .wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
     width: 47%;
     display: inline-block;
     vertical-align: top;
   }
-  /* line 280, ../scss/style.scss */
-  .wireframes .firstcolumn {
+  /* line 286, ../scss/style.scss */
+  .wireframes .firstcolumn, .thumbnails .firstcolumn {
     margin-right: 25px;
   }
 
-  /* line 284, ../scss/style.scss */
+  /* line 290, ../scss/style.scss */
   .tabletview {
     width: 80%;
   }
 
-  /* line 288, ../scss/style.scss */
+  /* line 294, ../scss/style.scss */
   .codingimage {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 293, ../scss/style.scss */
+  /* line 299, ../scss/style.scss */
   .projectscope {
     text-align: center;
   }
-  /* line 295, ../scss/style.scss */
+  /* line 301, ../scss/style.scss */
   .projectscope li {
     text-align: left;
   }
 
-  /* line 299, ../scss/style.scss */
+  /* line 305, ../scss/style.scss */
   .UX, .UI, .development {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 306, ../scss/style.scss */
+  /* line 312, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
-  /* line 309, ../scss/style.scss */
+  /* line 315, ../scss/style.scss */
   nav .imagetag {
     width: 7%;
   }
 
-  /* line 314, ../scss/style.scss */
+  /* line 320, ../scss/style.scss */
   .SCCFF, .OneColumbia, .Zverse {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 320, ../scss/style.scss */
+  /* line 326, ../scss/style.scss */
   .SCCFF {
     margin-right: 10px;
   }
 
-  /* line 325, ../scss/style.scss */
+  /* line 331, ../scss/style.scss */
   section {
     display: inline-block;
     width: 45%;
     vertical-align: top;
   }
 
-  /* line 332, ../scss/style.scss */
+  /* line 338, ../scss/style.scss */
   .firstsection {
     margin-right: 55px;
   }

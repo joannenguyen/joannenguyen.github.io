@@ -232,11 +232,12 @@ h5{
 }
 
 
-.wireframes{
-	.WF{
+.wireframes, .thumbnails{
+	.WF, .TN{
 		width: 100%;
 		margin-bottom: 25px;
 	}
+
 	img{
 		width: 100%;
 	}
@@ -247,8 +248,13 @@ h5{
 	margin-top: 40px;
 }
 
+.education, .contact{
+	margin-top: 40px;
+}
 
-
+.contacttag{
+	color: $color;
+}
 //media queries!!//
 
 
@@ -262,8 +268,8 @@ h5{
 		}
 	}
 
-	.wireframes{
-		.WF{
+	.wireframes, .thumbnails{
+		.WF, .TN{
 			width: 60%;
 		}
 	}
@@ -271,8 +277,8 @@ h5{
 
 @media (min-width: 800px) {
 
-	.wireframes{
-		.WF{
+	.wireframes, .thumbnails{
+		.WF, .TN{
 			width: 47%;
 			display: inline-block;
 			vertical-align: top;
