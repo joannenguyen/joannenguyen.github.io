@@ -249,73 +249,99 @@ h5 {
   margin-top: 40px;
 }
 
+/* line 236, ../scss/style.scss */
+.wireframes .WF {
+  width: 100%;
+  margin-bottom: 25px;
+}
+/* line 240, ../scss/style.scss */
+.wireframes img {
+  width: 100%;
+}
+
 @media (min-width: 600px) {
-  /* line 235, ../scss/style.scss */
+  /* line 255, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
-  /* line 238, ../scss/style.scss */
+  /* line 258, ../scss/style.scss */
   nav .imagetag {
     width: 8%;
   }
+
+  /* line 264, ../scss/style.scss */
+  .wireframes .WF {
+    width: 60%;
+  }
 }
 @media (min-width: 800px) {
-  /* line 246, ../scss/style.scss */
+  /* line 273, ../scss/style.scss */
+  .wireframes .WF {
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* line 278, ../scss/style.scss */
+  .wireframes .firstcolumn {
+    margin-right: 25px;
+  }
+
+  /* line 282, ../scss/style.scss */
   .tabletview {
     width: 80%;
   }
 
-  /* line 250, ../scss/style.scss */
+  /* line 286, ../scss/style.scss */
   .codingimage {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 255, ../scss/style.scss */
+  /* line 291, ../scss/style.scss */
   .projectscope {
     text-align: center;
   }
-  /* line 257, ../scss/style.scss */
+  /* line 293, ../scss/style.scss */
   .projectscope li {
     text-align: left;
   }
 
-  /* line 261, ../scss/style.scss */
+  /* line 297, ../scss/style.scss */
   .UX, .UI, .development {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 268, ../scss/style.scss */
+  /* line 304, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
-  /* line 271, ../scss/style.scss */
+  /* line 307, ../scss/style.scss */
   nav .imagetag {
     width: 7%;
   }
 
-  /* line 276, ../scss/style.scss */
+  /* line 312, ../scss/style.scss */
   .SCCFF, .OneColumbia, .Zverse {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 282, ../scss/style.scss */
+  /* line 318, ../scss/style.scss */
   .SCCFF {
     margin-right: 10px;
   }
 
-  /* line 287, ../scss/style.scss */
+  /* line 323, ../scss/style.scss */
   section {
     display: inline-block;
     width: 45%;
     vertical-align: top;
   }
 
-  /* line 294, ../scss/style.scss */
+  /* line 330, ../scss/style.scss */
   .firstsection {
     margin-right: 55px;
   }

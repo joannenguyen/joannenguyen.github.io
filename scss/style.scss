@@ -230,6 +230,26 @@ h5{
 		color: $color;
 		margin-top: 40px;
 }
+
+
+.wireframes{
+	.WF{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	img{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+//media queries!!//
+
+
 @media (min-width: 600px) {
 	nav{
 		li{
@@ -239,10 +259,26 @@ h5{
 			width: 8%;
 		}
 	}
+
+	.wireframes{
+		.WF{
+			width: 60%;
+		}
+	}
 }
 
 @media (min-width: 800px) {
 
+	.wireframes{
+		.WF{
+			width: 47%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.firstcolumn{
+			margin-right: 25px;
+		}
+	}
 	.tabletview{
 		width: 80%;
 	}
