@@ -1,114 +1,121 @@
-/* line 7, ../scss/style.scss */
+/* line 6, ../scss/style.scss */
 .clearfix {
   position: relative;
   zoom: 1;
 }
-/* line 10, ../scss/style.scss */
+/* line 9, ../scss/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
-/* line 14, ../scss/style.scss */
+/* line 13, ../scss/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 20, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 body {
   min-width: 360px;
-  font-family: "Cardo", serif;
 }
 
-/* line 25, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
 .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 .mainimage {
-  position: relative;
-  background-image: url("../img/mainpicture.jpg");
-  height: 700px;
-  background-size: cover;
-  background-position: center right;
-  width: 102%;
+  background: url("../img/watercolor.jpg");
+  width: 100%;
+  background-size: contain;
+  padding: 100px 0px;
+  height: 150px;
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
-/* line 40, ../scss/style.scss */
-h1, h2, h3 {
+/* line 37, ../scss/style.scss */
+h1, h2, h3, h4, p, h5 {
   margin: 0px;
   font-weight: normal;
 }
 
-/* line 45, ../scss/style.scss */
-.imagetext {
-  margin: 65% auto;
-  position: absolute;
-  left: 15%;
-  text-align: center;
-}
-
-/* line 52, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 h1 {
   text-transform: uppercase;
-  color: white;
-  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
-  margin-bottom: 3px;
-  display: none;
+  color: #444444;
+  font: normal normal 35px Molengo;
+  letter-spacing: 10px;
 }
 
-/* line 59, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
+h2 {
+  font: normal 400 20px Martel Sans, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #444444;
+  margin: 15px 0px;
+}
+
+/* line 58, ../scss/style.scss */
+h3 {
+  text-transform: uppercase;
+  color: white;
+  font: normal normal 18px Molengo;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* line 66, ../scss/style.scss */
 a {
   text-decoration: none;
   padding: 0px;
   color: white;
-  font-family: "Cardo", serif;
+  cursor: pointer;
 }
-/* line 64, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 a:hover {
   color: #ea5d6e;
 }
 
-/* line 69, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 nav {
-  background-color: rgba(3, 3, 3, 0.5);
-  position: absolute;
-  z-index: 100;
+  background-color: #222222;
   width: 100%;
   text-align: center;
   padding: 10px 0px;
 }
-/* line 76, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 nav ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
   display: inline-block;
 }
-/* line 82, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 nav li {
   display: inline-block;
   padding: 0px 8px;
 }
-/* line 86, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 nav a {
   display: block;
-  font-family: "Julius Sans One", sans-serif;
+  font: normal 400 12px Martel Sans, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-/* line 90, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 nav img {
+  width: 100%;
+}
+/* line 102, ../scss/style.scss */
+nav .imagetag {
   display: inline-block;
   width: 10%;
 }
 
-/* line 97, ../scss/style.scss */
-h2 {
-  font-family: "Julius Sans One", sans-serif;
-  margin: 15px 0px;
-}
-
-/* line 102, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .SCCFF {
   background-image: url("../img/sccffmockup2.jpg");
   background-position: center center;
@@ -117,18 +124,19 @@ h2 {
   height: 275px;
   position: relative;
   margin-bottom: 15px;
+  text-align: center;
 }
-/* line 110, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .SCCFF h3 {
   position: absolute;
-  bottom: 25%;
+  bottom: 18%;
   text-transform: uppercase;
-  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
   background-color: rgba(3, 3, 3, 0.5);
-  padding: 30px 27px;
+  padding: 15px 0px;
+  width: 100%;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .OneColumbia {
   background-image: url("../img/onecolumbiamockup.jpg");
   background-position: center center;
@@ -137,16 +145,19 @@ h2 {
   height: 275px;
   position: relative;
   margin-bottom: 15px;
+  text-align: center;
 }
-/* line 128, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 .OneColumbia h3 {
   position: absolute;
   bottom: 18%;
   text-transform: uppercase;
-  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(3, 3, 3, 0.5);
+  padding: 15px 0px;
+  width: 100%;
 }
 
-/* line 136, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 .Zverse {
   background-image: url("../img/zversemockup2.jpg");
   background-position: center center;
@@ -154,35 +165,158 @@ h2 {
   width: 100%;
   height: 275px;
   position: relative;
+  text-align: center;
 }
-/* line 143, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .Zverse h3 {
   position: absolute;
   bottom: 20%;
   text-transform: uppercase;
-  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(3, 3, 3, 0.5);
+  padding: 15px 0px;
+  width: 100%;
+}
+
+/* line 170, ../scss/style.scss */
+.applefamily {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 174, ../scss/style.scss */
+.applefamily img {
+  width: 100%;
+}
+
+/* line 179, ../scss/style.scss */
+h4 {
+  font: normal normal 30px Molengo;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 188, ../scss/style.scss */
+p, h5 {
+  font: normal 400 12px Martel Sans, sans-serif;
+  color: #444444;
+  line-height: 22px;
+}
+
+/* line 193, ../scss/style.scss */
+h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 10px 0px 5px 0px;
+}
+
+/* line 201, ../scss/style.scss */
+.projectscope ul {
+  margin: 0px;
+}
+/* line 204, ../scss/style.scss */
+.projectscope li {
+  font: normal 400 12px Martel Sans, sans-serif;
+  color: #444444;
+}
+
+/* line 210, ../scss/style.scss */
+.question {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* line 216, ../scss/style.scss */
+.discovery h4, .wireframes h4, .thumbnails h4, .integrations h4, .coding h4, .viewdemo h4 {
+  margin-top: 40px;
+}
+
+/* line 221, ../scss/style.scss */
+.tabletview {
+  width: 100%;
+}
+/* line 223, ../scss/style.scss */
+.tabletview img {
+  width: 100%;
+}
+
+/* line 229, ../scss/style.scss */
+.livedemo {
+  color: #444444;
+  margin-top: 40px;
 }
 
 @media (min-width: 600px) {
-  /* line 154, ../scss/style.scss */
+  /* line 235, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
+  /* line 238, ../scss/style.scss */
+  nav .imagetag {
+    width: 8%;
+  }
 }
 @media (min-width: 800px) {
-  /* line 162, ../scss/style.scss */
+  /* line 246, ../scss/style.scss */
+  .tabletview {
+    width: 80%;
+  }
+
+  /* line 250, ../scss/style.scss */
+  .codingimage {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* line 255, ../scss/style.scss */
+  .projectscope {
+    text-align: center;
+  }
+  /* line 257, ../scss/style.scss */
+  .projectscope li {
+    text-align: left;
+  }
+
+  /* line 261, ../scss/style.scss */
+  .UX, .UI, .development {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+  }
+
+  /* line 268, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
+  /* line 271, ../scss/style.scss */
+  nav .imagetag {
+    width: 7%;
+  }
 
-  /* line 167, ../scss/style.scss */
+  /* line 276, ../scss/style.scss */
   .SCCFF, .OneColumbia, .Zverse {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 173, ../scss/style.scss */
+  /* line 282, ../scss/style.scss */
   .SCCFF {
     margin-right: 10px;
+  }
+
+  /* line 287, ../scss/style.scss */
+  section {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+
+  /* line 294, ../scss/style.scss */
+  .firstsection {
+    margin-right: 55px;
   }
 }
