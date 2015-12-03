@@ -34,6 +34,8 @@ body{
 	background-repeat: no-repeat;
 }
 
+
+
 h1, h2, h3, h4, p, h5{
 	margin: 0px;
 	font-weight: normal;
@@ -270,7 +272,9 @@ h5{
 
 .about{
 	margin-top: 40px;
+	
 }
+
 
 .education, .contact{
 	margin-top: 40px;
@@ -278,6 +282,15 @@ h5{
 
 .contacttag{
 	color: $color;
+}
+
+.profilepicture{
+	@include border-radius( 50% );
+	// display: block;
+	// margin: 0 auto;
+	width: 30%;
+	margin-bottom: 40px;
+	float: right;
 }
 //media queries!!//
 
