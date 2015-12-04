@@ -149,7 +149,7 @@ nav{
 }
 
 .Zverse{
-	background-image: url("../img/zversemockup2.jpg");
+	background-image: url("../img/upliffmockup2.jpg");
 	background-position: center center;
 	background-size: cover;
 	width: 100%;
@@ -226,6 +226,12 @@ h5{
 		font: normal 400 12px Martel Sans, sans-serif;
 		color: $color;
 	}
+	a{
+		color: #ea5d6e;
+		&:hover{
+			color: $color;
+		}
+	}
 }
 
 // .discovery, .wireframes, .thumbnails, .integrations, .coding, .viewdemo{
@@ -250,7 +256,14 @@ h5{
 	}
 }
 
-
+.mobileviewupliff{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	img{
+		width: 100%;
+	}
+}
 
 .livedemo{
 		color: $color;
