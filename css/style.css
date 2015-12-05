@@ -342,115 +342,116 @@ h5 {
   width: 30%;
   margin-bottom: 40px;
   float: right;
+  margin-left: 10px;
 }
 
-/* line 327, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .resume {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
-/* line 331, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .resume img {
   width: 100%;
 }
 
 @media (min-width: 600px) {
-  /* line 341, ../scss/style.scss */
+  /* line 342, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
-  /* line 344, ../scss/style.scss */
+  /* line 345, ../scss/style.scss */
   nav .imagetag {
     width: 8%;
   }
 
-  /* line 350, ../scss/style.scss */
+  /* line 351, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .wireframes .MU, .thumbnails .WF, .thumbnails .TN, .thumbnails .MU, .mockups .WF, .mockups .TN, .mockups .MU {
     width: 60%;
   }
 }
 @media (min-width: 800px) {
-  /* line 360, ../scss/style.scss */
+  /* line 361, ../scss/style.scss */
   .grokwf {
     width: 80%;
   }
 
-  /* line 365, ../scss/style.scss */
+  /* line 366, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
     width: 47%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 374, ../scss/style.scss */
+  /* line 375, ../scss/style.scss */
   .firstcolumn {
     margin-right: 25px;
   }
 
-  /* line 379, ../scss/style.scss */
+  /* line 380, ../scss/style.scss */
   .mockups .MU {
     width: 30%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 385, ../scss/style.scss */
+  /* line 386, ../scss/style.scss */
   .tabletview, .mobileview {
     width: 80%;
   }
 
-  /* line 389, ../scss/style.scss */
+  /* line 390, ../scss/style.scss */
   .codingimage {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 394, ../scss/style.scss */
+  /* line 395, ../scss/style.scss */
   .projectscope {
     text-align: center;
   }
-  /* line 396, ../scss/style.scss */
+  /* line 397, ../scss/style.scss */
   .projectscope li {
     text-align: left;
   }
 
-  /* line 400, ../scss/style.scss */
+  /* line 401, ../scss/style.scss */
   .UX, .UI, .development {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 407, ../scss/style.scss */
+  /* line 408, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
-  /* line 410, ../scss/style.scss */
+  /* line 411, ../scss/style.scss */
   nav .imagetag {
     width: 7%;
   }
 
-  /* line 415, ../scss/style.scss */
+  /* line 416, ../scss/style.scss */
   .SCCFF, .OneColumbia, .upliff, .grok {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 421, ../scss/style.scss */
+  /* line 422, ../scss/style.scss */
   .SCCFF, .upliff {
     margin-right: 10px;
   }
 
-  /* line 426, ../scss/style.scss */
+  /* line 427, ../scss/style.scss */
   section {
     display: inline-block;
     width: 45%;
     vertical-align: top;
   }
 
-  /* line 433, ../scss/style.scss */
+  /* line 434, ../scss/style.scss */
   .firstsection {
     margin-right: 55px;
   }
