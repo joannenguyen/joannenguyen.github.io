@@ -166,8 +166,9 @@ nav .imagetag {
   height: 275px;
   position: relative;
   text-align: center;
+  margin-bottom: 15px;
 }
-/* line 159, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 .upliff h3 {
   position: absolute;
   bottom: 20%;
@@ -177,7 +178,7 @@ nav .imagetag {
   width: 100%;
 }
 
-/* line 169, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .grok {
   background-image: url("../img/grokmockup.jpg");
   background-position: center center;
@@ -186,8 +187,9 @@ nav .imagetag {
   height: 275px;
   position: relative;
   text-align: center;
+  margin-bottom: 15px;
 }
-/* line 177, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .grok h3 {
   position: absolute;
   bottom: 20%;
@@ -198,17 +200,29 @@ nav .imagetag {
 }
 
 /* line 190, ../scss/style.scss */
+.coffee img {
+  width: 100%;
+  height: 275px;
+  position: relative;
+}
+/* line 198, ../scss/style.scss */
+.coffee a:hover {
+  color: #ea5d6e;
+  opacity: 0.6;
+}
+
+/* line 208, ../scss/style.scss */
 .applefamily {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
-/* line 194, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 .applefamily img {
   width: 100%;
 }
 
-/* line 199, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 h4 {
   font: normal normal 30px Molengo;
   text-transform: uppercase;
@@ -219,14 +233,14 @@ h4 {
   margin-top: 40px;
 }
 
-/* line 209, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 p, h5 {
   font: normal 400 12px Martel Sans, sans-serif;
   color: #444444;
   line-height: 22px;
 }
 
-/* line 214, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 h5 {
   font-weight: bold;
   text-transform: uppercase;
@@ -234,107 +248,107 @@ h5 {
   margin: 10px 0px 5px 0px;
 }
 
-/* line 222, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .projectscope h4 {
   margin-top: 0px;
 }
-/* line 225, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 .projectscope ul {
   margin: 0px;
 }
-/* line 228, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 .projectscope li {
   font: normal 400 12px Martel Sans, sans-serif;
   color: #444444;
 }
 
-/* line 234, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .question {
   margin-top: 20px;
   font-size: 0.9em;
 }
 
-/* line 240, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .discovery ul {
   margin: 0px;
 }
-/* line 243, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .discovery li {
   font: normal 400 12px Martel Sans, sans-serif;
   color: #444444;
 }
-/* line 247, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 .discovery a {
   color: #ea5d6e;
 }
-/* line 249, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .discovery a:hover {
   color: #444444;
 }
 
-/* line 261, ../scss/style.scss */
+/* line 279, ../scss/style.scss */
 .tabletview {
   width: 100%;
 }
-/* line 263, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 .tabletview img {
   width: 100%;
 }
 
-/* line 268, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 .mobileview {
   width: 50%;
   margin: 0 auto;
   display: block;
 }
-/* line 272, ../scss/style.scss */
+/* line 290, ../scss/style.scss */
 .mobileview img {
   width: 100%;
 }
 
-/* line 277, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .mobileviewupliff {
   width: 80%;
   display: block;
   margin: 0 auto;
 }
-/* line 281, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 .mobileviewupliff img {
   width: 100%;
 }
 
-/* line 286, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .livedemo {
   color: #444444;
   margin-top: 40px;
 }
 
-/* line 293, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .wireframes .WF, .wireframes .TN, .wireframes .MU, .thumbnails .WF, .thumbnails .TN, .thumbnails .MU, .mockups .WF, .mockups .TN, .mockups .MU {
   width: 100%;
   margin-bottom: 25px;
 }
-/* line 298, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 .wireframes img, .thumbnails img, .mockups img {
   width: 100%;
 }
 
-/* line 304, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 .about {
   margin-top: 40px;
 }
 
-/* line 310, ../scss/style.scss */
+/* line 328, ../scss/style.scss */
 .education, .contact {
   margin-top: 40px;
 }
 
-/* line 314, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .contacttag {
   color: #444444;
 }
 
-/* line 318, ../scss/style.scss */
+/* line 336, ../scss/style.scss */
 .profilepicture {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -345,113 +359,113 @@ h5 {
   margin-left: 10px;
 }
 
-/* line 328, ../scss/style.scss */
+/* line 346, ../scss/style.scss */
 .resume {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
-/* line 332, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 .resume img {
   width: 100%;
 }
 
 @media (min-width: 600px) {
-  /* line 342, ../scss/style.scss */
+  /* line 360, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
-  /* line 345, ../scss/style.scss */
+  /* line 363, ../scss/style.scss */
   nav .imagetag {
     width: 8%;
   }
 
-  /* line 351, ../scss/style.scss */
+  /* line 369, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .wireframes .MU, .thumbnails .WF, .thumbnails .TN, .thumbnails .MU, .mockups .WF, .mockups .TN, .mockups .MU {
     width: 60%;
   }
 }
 @media (min-width: 800px) {
-  /* line 361, ../scss/style.scss */
+  /* line 379, ../scss/style.scss */
   .grokwf {
     width: 80%;
   }
 
-  /* line 366, ../scss/style.scss */
+  /* line 384, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
     width: 47%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 375, ../scss/style.scss */
+  /* line 393, ../scss/style.scss */
   .firstcolumn {
     margin-right: 25px;
   }
 
-  /* line 380, ../scss/style.scss */
+  /* line 398, ../scss/style.scss */
   .mockups .MU {
     width: 30%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 386, ../scss/style.scss */
+  /* line 404, ../scss/style.scss */
   .tabletview, .mobileview {
     width: 80%;
   }
 
-  /* line 390, ../scss/style.scss */
+  /* line 408, ../scss/style.scss */
   .codingimage {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 395, ../scss/style.scss */
+  /* line 413, ../scss/style.scss */
   .projectscope {
     text-align: center;
   }
-  /* line 397, ../scss/style.scss */
+  /* line 415, ../scss/style.scss */
   .projectscope li {
     text-align: left;
   }
 
-  /* line 401, ../scss/style.scss */
+  /* line 419, ../scss/style.scss */
   .UX, .UI, .development {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 408, ../scss/style.scss */
+  /* line 426, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
-  /* line 411, ../scss/style.scss */
+  /* line 429, ../scss/style.scss */
   nav .imagetag {
     width: 7%;
   }
 
-  /* line 416, ../scss/style.scss */
-  .SCCFF, .OneColumbia, .upliff, .grok {
+  /* line 434, ../scss/style.scss */
+  .SCCFF, .OneColumbia, .upliff, .grok, .coffee {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 422, ../scss/style.scss */
+  /* line 440, ../scss/style.scss */
   .SCCFF, .upliff {
     margin-right: 10px;
   }
 
-  /* line 427, ../scss/style.scss */
+  /* line 445, ../scss/style.scss */
   section {
     display: inline-block;
     width: 45%;
     vertical-align: top;
   }
 
-  /* line 434, ../scss/style.scss */
+  /* line 452, ../scss/style.scss */
   .firstsection {
     margin-right: 55px;
   }

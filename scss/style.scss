@@ -156,6 +156,7 @@ nav{
 	height: 275px;
 	position: relative;
 	text-align: center;
+	margin-bottom: 15px;
 	h3{
 		position: absolute;
 		bottom: 20%;
@@ -174,6 +175,7 @@ nav{
 	height: 275px;
 	position: relative;
 	text-align: center;
+	margin-bottom: 15px;
 	h3{
 		position: absolute;
 		bottom: 20%;
@@ -182,6 +184,22 @@ nav{
 		padding: 15px 0px;
 		width: 100%;
 	}
+}
+
+.coffee{
+	img{
+	// background-image: url("../img/coffee.png");
+	// background-position: center center;
+	// background-size: cover;
+	width: 100%;
+	height: 275px;
+	position: relative;
+	}
+	a:hover{
+		color: #ea5d6e;
+		opacity: 0.6;
+	}
+
 }
 
 
@@ -413,7 +431,7 @@ h5{
 		}
 	}
 
-	.SCCFF, .OneColumbia, .upliff, .grok{
+	.SCCFF, .OneColumbia, .upliff, .grok, .coffee{
 		width: 49%;
 		display: inline-block;
 		// background-size: contain;
