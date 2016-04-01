@@ -19,7 +19,7 @@ body {
 }
 
 /* line 41, ../scss/style.scss */
-.wrapper {
+.wrapper, .wrapper2 {
   width: 90%;
   margin: 0 auto;
 }
@@ -377,140 +377,159 @@ h5 {
 
 /* line 310, ../scss/style.scss */
 .profilepicture {
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  width: 30%;
-  margin-bottom: 40px;
-  float: right;
-  margin-left: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 40px;
 }
 
-/* line 320, ../scss/style.scss */
+/* line 319, ../scss/style.scss */
 .resume {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
-/* line 324, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 .resume img {
   width: 100%;
 }
 
 @media (min-width: 600px) {
-  /* line 334, ../scss/style.scss */
+  /* line 337, ../scss/style.scss */
   nav li {
     padding: 0px 30px;
   }
-  /* line 337, ../scss/style.scss */
+  /* line 340, ../scss/style.scss */
   nav .imagetag {
     width: 8%;
   }
 
-  /* line 343, ../scss/style.scss */
+  /* line 346, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .wireframes .MU, .thumbnails .WF, .thumbnails .TN, .thumbnails .MU, .mockups .WF, .mockups .TN, .mockups .MU {
     width: 60%;
   }
 
-  /* line 348, ../scss/style.scss */
+  /* line 351, ../scss/style.scss */
   .laptopview {
     margin: 0;
     float: right;
     width: 100%;
   }
 
-  /* line 353, ../scss/style.scss */
+  /* line 356, ../scss/style.scss */
   h4 {
     clear: both;
   }
+
+  /* line 360, ../scss/style.scss */
+  .about2 {
+    width: 65%;
+    float: right;
+  }
+
+  /* line 365, ../scss/style.scss */
+  .profilepicture {
+    width: 35%;
+    max-width: 100%;
+  }
+
+  /* line 370, ../scss/style.scss */
+  .contact {
+    display: none;
+  }
+
+  /* line 381, ../scss/style.scss */
+  .wrapper2 {
+    width: 30%;
+    margin: 0;
+  }
 }
 @media (min-width: 800px) {
-  /* line 362, ../scss/style.scss */
+  /* line 390, ../scss/style.scss */
   .grokwf {
     width: 80%;
   }
 
-  /* line 367, ../scss/style.scss */
+  /* line 395, ../scss/style.scss */
   .wireframes .WF, .wireframes .TN, .thumbnails .WF, .thumbnails .TN {
     width: 47%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 376, ../scss/style.scss */
+  /* line 404, ../scss/style.scss */
   .firstcolumn {
     margin-right: 25px;
   }
 
-  /* line 381, ../scss/style.scss */
+  /* line 409, ../scss/style.scss */
   .mockups .MU {
     width: 30%;
     display: inline-block;
     vertical-align: top;
   }
 
-  /* line 387, ../scss/style.scss */
+  /* line 415, ../scss/style.scss */
   .tabletview, .mobileview {
     width: 80%;
   }
 
-  /* line 391, ../scss/style.scss */
+  /* line 419, ../scss/style.scss */
   .laptopview {
     width: 46%;
     display: inline-block;
   }
 
-  /* line 397, ../scss/style.scss */
+  /* line 425, ../scss/style.scss */
   .codingimage {
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
-  /* line 402, ../scss/style.scss */
+  /* line 430, ../scss/style.scss */
   .projectscope {
     text-align: center;
   }
-  /* line 404, ../scss/style.scss */
+  /* line 432, ../scss/style.scss */
   .projectscope li {
     text-align: left;
   }
 
-  /* line 408, ../scss/style.scss */
+  /* line 436, ../scss/style.scss */
   .UX, .UI, .development {
     display: inline-block;
     vertical-align: top;
     width: 30%;
   }
 
-  /* line 415, ../scss/style.scss */
+  /* line 443, ../scss/style.scss */
   nav li {
     padding: 0px 50px;
   }
-  /* line 418, ../scss/style.scss */
+  /* line 446, ../scss/style.scss */
   nav .imagetag {
     width: 7%;
   }
 
-  /* line 423, ../scss/style.scss */
+  /* line 451, ../scss/style.scss */
   .SCCFF, .OneColumbia, .upliff, .grok, .coffee, .layr {
     width: 49%;
     display: inline-block;
   }
 
-  /* line 429, ../scss/style.scss */
+  /* line 457, ../scss/style.scss */
   .SCCFF, .upliff, .coffee {
     margin-right: 10px;
   }
 
-  /* line 434, ../scss/style.scss */
+  /* line 462, ../scss/style.scss */
   section {
     display: inline-block;
     width: 45%;
     vertical-align: top;
   }
 
-  /* line 441, ../scss/style.scss */
+  /* line 469, ../scss/style.scss */
   .firstsection {
     margin-right: 55px;
   }

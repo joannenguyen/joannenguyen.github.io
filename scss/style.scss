@@ -38,7 +38,7 @@ body{
 	min-width: 360px;
 }
 
-.wrapper{
+.wrapper, .wrapper2{
 	width: 90%;
 	margin: 0 auto;
 }
@@ -308,13 +308,12 @@ h5{
 }
 
 .profilepicture{
-	@include border-radius( 50% );
+	// @include border-radius( 50% );
 	// display: block;
 	// margin: 0 auto;
-	width: 30%;
-	margin-bottom: 40px;
-	float: right;
-	margin-left: 10px;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 40px;
 }
 
 .resume{
@@ -325,6 +324,10 @@ h5{
 		width: 100%;
 	}
 }
+
+
+
+
 
 //media queries!!//
 
@@ -354,6 +357,31 @@ h5{
 		clear: both;
 	}
 
+	.about2{
+		width: 65%;
+		float: right;
+	}
+
+	.profilepicture{
+		width: 35%;
+		max-width: 100%;
+	}
+
+	.contact{
+		display: none;
+	}
+
+	// .contact2 {
+	//     /* display: block; */
+	//     width: 35%;
+	//     /* margin: 0 auto; */
+	//     text-align: center;
+	// }
+
+	.wrapper2{
+		width: 30%;
+		margin: 0;
+	}
 	
 }
 
